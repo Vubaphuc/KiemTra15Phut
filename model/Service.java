@@ -17,7 +17,7 @@ public class Service {
         if (revenue < 4000){
             salary = salaryA + ((5*revenue)/100);
         }
-        if (revenue > 4000){
+        if (revenue >= 4000){
             salary = salaryA + ((10*revenue)/100);
         }
         Seller seller = new Seller(name,revenue,salary);
